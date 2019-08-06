@@ -10,6 +10,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel": "^6.23.0",
     "babel-loader": "^8.0.6",
+    "micropython": "^1.1.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack": "^4.39.1",
