@@ -1,8 +1,12 @@
+{% load render_bundle from webpack_loader %}
+
 <html>
 <head>
     <title>Micropython example</title>
+    {% render_bundle 'main' 'css' %}
 </head>
 <body>
-<h1>Hi</h1>
+<div id="root"></div>
+{% render_bundle 'main' 'js' %}
 </body>
 </html>
